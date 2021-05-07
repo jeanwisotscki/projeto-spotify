@@ -121,6 +121,37 @@ nav.navbar-transparente{
 	padding-left: 80px;
 }
 
+/* Rodapé
+*******************************/
+footer{
+	background: #000;
+	padding: 50px 0 20px 0;
+	position: relative;
+}
+
+footer h4{
+	color: #919496;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a{
+	color: #fff;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer ul li{
+	float: right;
+}
+
 /* Tipografia
 *******************************/
 h1{
@@ -159,14 +190,9 @@ h3{
 		display: none;
 	}
 
-	.foto-iphone1{
+	.foto-iphone1, .foto-iphone2{
 		display: none;
 	}
-
-	.foto-iphone2{
-		display: none;
-	}
-
 }
 
 /*/ Small devices (landscape phones, 576px and up)*/
@@ -188,12 +214,8 @@ h3{
 		display: none;
 	}
 
-	.foto-iphone1{
+	.foto-iphone1, .foto-iphone2{
 		display: none
-	}
-
-	.foto-iphone2{
-		display: none;
 	}
 }
 
