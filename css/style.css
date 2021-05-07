@@ -7,6 +7,7 @@
 ******************************/
 html, body, #home{
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body{
@@ -52,10 +53,10 @@ nav.navbar-transparente{
 .btn-custom{
 	color: white;
 	text-transform: uppercase;
-	border-radius: 500px;
 	-webkit-border-radius: 500px;
 	-moz-border-radius: 500px;
 	-ms-border-radius: 500px;
+	border-radius: 500px;
 	transition: background 0.4s, color 0.4s;
 	padding: 10px 20px;
 }
@@ -95,8 +96,29 @@ nav.navbar-transparente{
 	padding-top: 20px;
 }
 
+#recursos{
+	color: white;
+	padding: 20px 0;
+}
+
+#recursos h2{
+	color: #fff;
+}
+
+#recursos h3{
+	color: #9bf0e1;
+}
+
 .albuns{
 	padding: 10px 0;
+}
+
+.rotacionar{
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+	padding-left: 80px;
 }
 
 /* Tipografia
@@ -136,6 +158,15 @@ h3{
 	.img-telas-md{
 		display: none;
 	}
+
+	.foto-iphone1{
+		display: none;
+	}
+
+	.foto-iphone2{
+		display: none;
+	}
+
 }
 
 /*/ Small devices (landscape phones, 576px and up)*/
@@ -156,6 +187,14 @@ h3{
 	.img-telas-md{
 		display: none;
 	}
+
+	.foto-iphone1{
+		display: none
+	}
+
+	.foto-iphone2{
+		display: none;
+	}
 }
 
 /*/ Medium devices (tablets, 768px and up)*/
@@ -170,6 +209,17 @@ h3{
 
 	.img-telas-md img{
 		padding: 10px 0;
+	}
+
+	.foto-iphone1{
+		-webkit-transform: rotate(5deg);
+		-moz-transform: rotate(5deg);
+		-ms-transform: rotate(5deg);
+		transform: rotate(5deg);
+	}
+
+	.foto-iphone2{
+		display: none;
 	}
 }
 
